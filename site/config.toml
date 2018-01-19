@@ -1,9 +1,278 @@
-baseurl = "/"
+# Main config file for icon theme.
+theme = "icon-master"
+baseURL = "/"
 languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "SokoTech"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+# Metadata
+[params]
+  author = "SokoTech"
+  description = "SokoTech"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/home/hero_bg_1.jpg"
+  title = "We create, test & scale, innovative programs with high impact potential, focusing attention on the ideas and solutions that create social value."
+  description = ""
+
+# Navigation section
+[params.nav]
+  mission = "About"
+  services = "Projects"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "images/soko-logos/sokotech-logo.svg"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-steamconf-2017.jpg"
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-sokokids.jpg"
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-sokospace.jpg"
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-sokokids.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "Our will"
+    title = "Our will"
+    subtitle = "The purpose of SokoTech is to extend the use and understanding of technology, science, engineering, art and mathematics among society as a whole, without taking into account age, level of knowledge, status, capacities or gender."
+    description = "SokoTech wants to provide, with adhoc initiatives, access to the knowledge and skills necessary to adapt to a constantly changing world through the use of the most advanced technologies. We want to promote transversal and adapted learning to all ages, in a way that allows boys, girls, young people and adults, beginners or experts, to address the types of challenges and situations that they will find in the real environment and prepare them for the occupations of the 21st century.</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "How we work"
+    title = "How we work"
+    subtitle = "SokoTech offers a wide range of programs and services:"
+    
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Curation and Production of Events</li><li>Digital Design and Development</li><li>Integral Communication Services</li><li>Laboratory for Digital & Analog Exploration</li><li>Knowledge academy for the young generation</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+ 
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Strategy"
+    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "#"
+  title = "Our Services"
+  description = "SokoTech offers a wide range of programs and services that we group in 6 areas:"
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Event Curation & Production"
+    description = "SokoEvents brings together an intersectoral team of expert curators in the production of events related to science, technology and innovation."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Communication Services"
+    description = "Focusing on quality and care of detail, we offer integrated communication services to create a personalized product for each of the initiatives that entrust us."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Digital Design and Development"
+    description = "Our creative approach to problem solving give us the right tools for working effectively in designing new solutions tailored to meet our customers needs."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "SokoLab"
+    description = "In our Laboratory for Digital & Analog Exploration we research, develop and test projects based on new technologies, design innovation and social impact."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "SokoKids"
+    description = "Applying the project-based learning methodology, we offer a program of extra-curricular activities that focuses on personalized learning, which uses creativity, teamwork and trial-error solutions for the real world."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "SokoSpace"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "SteamConf"
+    subtitle = "International Education Conference"
+    img = "images/home-latest-projects/sokotech-home-steamconf.jpg"
+
+  [[params.work.item]]
+    title = "Smashing Conference"
+    subtitle = "For professional web designers and web developers"
+    img = "images/home-latest-projects/sokotech-home-smashingconf.jpg"
+
+  [[params.work.item]]
+    title = "Maker Faire Barcelona"
+    subtitle = "The Greatest Show (and Tell) on Earth"
+    img = "images/home-latest-projects/sokotech-home-makerfaire.jpg"
+
+  [[params.work.item]]
+    title = "SokoKids"
+    subtitle = "Knowledge academy for the young generation"
+    img = "../../images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "New Friends"
+    subtitle = "International Social Robotics Conference"
+    img = "../../images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Decidim"
+    subtitle = "Decidim la Barcelona que volem"
+    img = "../../images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "In3dustry"
+    subtitle = "The leading international manufacturing technology show in the context of manufacturing development."
+    img = "../../images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Fab 10"
+    subtitle = "One week of events focused on open and accessible technologies that will change the world."
+    img = "../../images/projects/img_4.jpg"
+
+
+
+# Team section
+[params.team]
+  enable = true
+  title = "Our Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Mariona"
+    position = "CoFounder & Director"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/mariona-sokotech.png"
+    
+    twitter = "#"
+    instagram = "#"  
+    linkedin = "#"
+
+
+    [[params.team.item]]
+    name = "Ian"
+    position = "CoFounder & Mentor"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/ian-sokotech.png"
+    
+    twitter = "#"
+    linkedin = "#"
+    instagram = "#"
+    
+    
+
+    [[params.team.item]]
+    name = "Anna"
+    position = "Soko Strategy"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/anna-sokotech.png"
+    
+    twitter = "#"
+    linkedin = "#"
+    instagram = "#"
+    
+    
+    
+    [[params.team.item]]
+    name = "Gabriela"
+    position = "Soko Events"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/gaby-sokotech.png"
+    
+    twitter = "#"
+    linkedin = "#"
+    instagram = "#"
+    
+   
+    
+    [[params.team.item]]
+    name = "Mariana"
+    position = "Soko Kids"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/mariana-sokotech.png"
+    
+    twitter = "#"
+    linkedin = "#"
+    instagram = "#"
+    
+    
+    
+    [[params.team.item]]
+    name = "Barbara"
+    position = "Comms Strategy"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/bb-sokotech.png"
+    
+    twitter = "#"
+    linkedin = "#"
+    instagram = "#"
+    
+    
+    
+    [[params.team.item]]
+    name = "Edgar"
+    position = "Design & Lab Manager"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/edgar-sokotech.png"
+    
+    twitter = "#"
+    linkedin = "#"
+    instagram = "#"
+       
+    
+    
+    [[params.team.item]]
+    name = "Uma"
+    position = "Canine in Residence"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/team/uma-sokotech.jpg"
+    
+    twitter = "#"
+    linkedin = "#"
+    instagram = "#"
+    
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "../../images/person3.jpg"
+  #   
+  #   twitter = "#"
+  #   linkedin = "#"
+  #   instagram = "#"
+  #   
+
+# Contact section
+[params.contact]
+  enable = false
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2018 SokoTech. <br> All rights reserved.</a><br>Developed with Hugo</small></p>"
+  
+  twitter = "#"
+  
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
+  

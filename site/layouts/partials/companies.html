@@ -1,0 +1,16 @@
+<div id="fh5co-companies" data-section="companies">
+    <!-- {{ with .Site.Params.companies }} -->
+    <div class="container">
+	    {{ range .item }}
+	    <div class="col-md-3">
+	       <div class="companies">
+			   <div class="companies-logo">
+				   <a href="#"><img class="img-responsive" src="{{ .img | absURL }}" alt="sokotech-companies" />
+			   </div> <!--companies-logo-->
+			   
+	       </div> <!--companies-->
+	    </div> <!--col-->	
+	    {{ end }}
+    
+    {{ end }}
+</div> <!-- END fh5co-services -->
