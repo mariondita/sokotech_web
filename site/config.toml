@@ -34,11 +34,11 @@ title = "SokoTech"
     [[params.mission.images.list]]
       img = "images/home/sokotech-steamconf-2017.jpg"
     [[params.mission.images.list]]
+      img = "images/home/sokotech-home-soko-workshop.jpg"
+    [[params.mission.images.list]]
       img = "images/home/sokotech-sokokids.jpg"
     [[params.mission.images.list]]
       img = "images/home/sokotech-sokospace.jpg"
-    [[params.mission.images.list]]
-      img = "images/home/sokotech-sokokids.jpg"
 
   [[params.mission.item]]
     weight = 1
@@ -71,7 +71,8 @@ title = "SokoTech"
   description = "SokoTech offers a wide range of programs and services that we group in 6 areas:"
 
   [[params.services.item]]
-    icon = "icon-present"
+    icon = "icon-gear"
+    page-link = "sokotech-events"
     title = "Event Curation & Production"
     description = "SokoEvents brings together an intersectoral team of expert curators in the production of events related to science, technology and innovation."
 
@@ -138,12 +139,12 @@ title = "SokoTech"
   [[params.work.item]]
     title = "In3dustry"
     subtitle = "The leading international manufacturing technology show in the context of manufacturing development."
-    img = "../../images/img_3.jpg"
+    img = "images/home-latest-projects/sokotech-home-in3dustry.jpg"
 
   [[params.work.item]]
     title = "Fab 10"
     subtitle = "One week of events focused on open and accessible technologies that will change the world."
-    img = "../../images/projects/img_4.jpg"
+    img = "images/home-latest-projects/sokotech-home-fab10.jpg"
 
 
 
