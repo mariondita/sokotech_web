@@ -20,7 +20,7 @@ title = "SokoTech"
   mission = "About"
   services = "Projects"
   team = "The Team"
-  contact = "Get In Touch"
+  contact = "Contact"
   # Include logo instead if HOME:
   logo = "images/soko-logos/sokotech-logo.svg"
 
@@ -70,37 +70,7 @@ title = "SokoTech"
   title = "Our Services"
   description = "SokoTech offers a wide range of programs and services that we group in 6 areas:"
 
-  [[params.services.item]]
-    icon = "icon-gear"
-    page-link = "sokotech-events"
-    title = "Event Curation & Production"
-    description = "SokoEvents brings together an intersectoral team of expert curators in the production of events related to science, technology and innovation."
 
-  [[params.services.item]]
-    icon = "icon-eye"
-    title = "Communication Services"
-    description = "Focusing on quality and care of detail, we offer integrated communication services to create a personalized product for each of the initiatives that entrust us."
-
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Digital Design and Development"
-    description = "Our creative approach to problem solving give us the right tools for working effectively in designing new solutions tailored to meet our customers needs."
-
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "SokoLab"
-    description = "In our Laboratory for Digital & Analog Exploration we research, develop and test projects based on new technologies, design innovation and social impact."
-
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "SokoKids"
-    description = "Applying the project-based learning methodology, we offer a program of extra-curricular activities that focuses on personalized learning, which uses creativity, teamwork and trial-error solutions for the real world."
-
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "SokoSpace"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    
 
 # Work section
 [params.work]
@@ -261,9 +231,9 @@ title = "SokoTech"
 
 # Contact section
 [params.contact]
-  enable = false
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  enable = true
+  title = "Contact Us"
+  message = "hola soko tech."
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.

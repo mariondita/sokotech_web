@@ -1,3 +1,10 @@
+/*---- colors -----
+
+orange: #F07204
+
+
+----------*/
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -1189,6 +1196,26 @@ p {
 /*------------------------------------- added-modified ------------------------------------------------*/
 
 
+/*---- colors -----
+
+orange: #F07204
+text: #949494
+
+----------*/
+
+#home-services-buttons a{
+	color: #949494 !important;
+}
+
+#home-services-buttons a:hover{
+	text-decoration: none !important;
+}
+
+#home-services-buttons h3{
+	color: #888 !important;
+	font-weight: 600 !important;
+}
+
 #hero-phrase {
 	padding-left: 0px !important;
 }
@@ -1201,7 +1228,6 @@ p {
 	padding: 0 15%;
 }
 
-
 .home-latest-projects-section {
 	margin-bottom: 0;
 }
@@ -1210,4 +1236,36 @@ p {
 	margin-top: 3%;
 }
 
+#fh5co-services .service .icon i {
+    font-size: 40px;
+    color: #F07204;
+}
+
+#footer-text {
+	text-align: left;
+	padding: 0px !important;
+}
+
+
+.fh5co-heading-footer h2{
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4d4d4d;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.fh5co-heading-footer h2::after{
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	margin-left: 0;
+	background: #cccccc;
+}
 /*# sourceMappingURL=style.css.map */
