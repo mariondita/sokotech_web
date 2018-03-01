@@ -84,7 +84,7 @@ title = "SokoTech"
   #  name = "strategy"
   #  title = "Strategy"
   #  subtitle = ""
-  #  description = "SokoTech offers a wide range of programs and services that we group in 4 areas:the curation and production of events (Soko Events), the laboratory of digital and analog manufacturing (Soko Lab), preparing girls and boys for the future (Soko Kids) and the integral communication, the design and the development web (Soko Dev& Comm)"
+  #  description = "SokoTech offers a wide range of programs and services that we group in 4 areas:the curation and production of events (Soko Events), the laboratory of digital and analog manufacturing (Soko Lab), preparing girls and boys for the future (Soko Kids) and the integral communication, the design and the development web (Soko Dev & Comm)"
 
 # Services section
 [params.services]
