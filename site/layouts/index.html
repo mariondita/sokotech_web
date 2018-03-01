@@ -18,18 +18,25 @@
 	
 	{{ partial "nav.html" . }}
 
+    <div id="mission-section">
+	    
 	{{ if .Site.Params.mission.enable }}
 	{{ partial "mission.html" . }}
 	{{ end }}
+    </div>
+    
+    <div id="project-section">
 	
 	{{ if .Site.Params.services.enable }}
-	{{ partial "services.html" .}}
+	{{ partial "services.html" . }}
 	{{ end }}
+	
+    </div>
 
-<div class="home-latest-projects-section">
+<div  class="home-latest-projects-section">
 	
 	{{ if .Site.Params.work.enable }}
-	{{ partial "gallery.html" .}}
+	{{ partial "gallery.html" . }}
 	{{ end }}
 	
 </div> <!--home-latest-projects-section-->
@@ -226,14 +233,20 @@
 	</div> <!-- END fh5co-companies -->
 	
 </div> <!--companies-section-->
-	
+
+<div id="team-section">	
 	{{ if .Site.Params.team.enable }}
 	{{ partial "team.html" .}}
 	{{ end }}
+</div>
+
+<div id="contact-section">
 
     {{ if .Site.Params.contact.enable }}
 	{{ partial "contact.html" .}}
 	{{ end }}
+	
+</div>
 	
 	{{ if .Site.Params.footer.enable }}
 	{{ partial "footer.html" .}}

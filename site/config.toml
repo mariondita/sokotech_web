@@ -1,21 +1,38 @@
-# Main config file for icon theme.
+################################################################################ Main config file for icon theme.
 theme = "icon-master"
-baseURL = "/"
-languageCode = "en-us"
+baseURL = "http://localhost:3000"
 title = "SokoTech"
 
-# Metadata
+
+
+
+
+################################################################################ Metadata
 [params]
   author = "SokoTech"
   description = "SokoTech"
 
-# Hero section (from here on is for icon theme)
+
+
+
+
+
+
+
+################################################################################ Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/home/hero_bg_1.jpg"
   title = "We create, test & scale, innovative programs with high impact potential, focusing attention on the ideas and solutions that create social value."
   description = ""
 
-# Navigation section
+
+
+
+
+
+
+
+################################################################################ Navigation section
 [params.nav]
   mission = "About"
   services = "Projects"
@@ -24,7 +41,14 @@ title = "SokoTech"
   # Include logo instead if HOME:
   logo = "images/soko-logos/sokotech-logo.svg"
 
-# Mission section
+
+
+
+
+
+
+
+################################################################################ Mission section
 [params.mission]
   enable = true
 
@@ -72,7 +96,11 @@ title = "SokoTech"
 
 
 
-# Work section
+
+
+
+
+################################################################################ Work section
 [params.work]
   enable = true
 
@@ -80,45 +108,57 @@ title = "SokoTech"
     title = "SteamConf"
     subtitle = "International Education Conference"
     img = "images/home-latest-projects/sokotech-home-steamconf.jpg"
+    link = "/events/steamconf"
 
   [[params.work.item]]
     title = "Smashing Conference"
     subtitle = "For professional web designers and web developers"
     img = "images/home-latest-projects/sokotech-home-smashingconf.jpg"
-
+    link = "/events/smashing-conference"
+    
   [[params.work.item]]
     title = "Maker Faire Barcelona"
     subtitle = "The Greatest Show (and Tell) on Earth"
     img = "images/home-latest-projects/sokotech-home-makerfaire.jpg"
-
+    link = "/events/maker-faire-barcelona"
+    
   [[params.work.item]]
     title = "SokoKids"
     subtitle = "Knowledge academy for the young generation"
-    img = "../../images/img_2.jpg"
-
+    img = "images/home-latest-projects/sokotech-home-sokokids.jpg"
+    link = "kids"
+    
   [[params.work.item]]
     title = "New Friends"
     subtitle = "International Social Robotics Conference"
     img = "../../images/img_3.jpg"
-
+    link = "/events/new-friends-2016"
+    
   [[params.work.item]]
     title = "Decidim"
     subtitle = "Decidim la Barcelona que volem"
-    img = "../../images/img_2.jpg"
-
+    img = "images/home-latest-projects/sokotech-home-decidim.jpg"
+    link = "/events/decidim"
+        
   [[params.work.item]]
     title = "In3dustry"
     subtitle = "The leading international manufacturing technology show in the context of manufacturing development."
     img = "images/home-latest-projects/sokotech-home-in3dustry.jpg"
-
+    link = "/events/in3dustry"
+    
   [[params.work.item]]
     title = "Fab 10"
     subtitle = "One week of events focused on open and accessible technologies that will change the world."
     img = "images/home-latest-projects/sokotech-home-fab10.jpg"
+    link = "/events/fab10-barcelona"
 
 
 
-# Team section
+
+
+
+
+############################################################################### Team section
 [params.team]
   enable = true
   title = "Our Team"
@@ -127,55 +167,48 @@ title = "SokoTech"
   [[params.team.item]]
     name = "Mariona"
     position = "CoFounder & Director"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = ""
     img = "images/team/mariona-sokotech.png"
+    link = "/team#mariona"
     
-    twitter = "#"
-    instagram = "#"  
-    linkedin = "#"
-
-
+    twitter = "https://twitter.com/mariondita"
+    linkedin = "https://linkedin.com/in/marionaaloyciller"
+    instagram = "https://www.instagram.com/mariondita"
+    
+    
+    
     [[params.team.item]]
     name = "Ian"
     position = "CoFounder & Mentor"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = ""
     img = "images/team/ian-sokotech.png"
+    link = "/team#ian"
     
     twitter = "#"
     linkedin = "#"
     instagram = "#"
-    
     
 
     [[params.team.item]]
     name = "Anna"
     position = "Soko Strategy"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = ""
     img = "images/team/anna-sokotech.png"
+    link = "/team#anna"
     
     twitter = "#"
     linkedin = "#"
-    instagram = "#"
+    instagram = "#"       
+    
     
     
     
     [[params.team.item]]
     name = "Gabriela"
     position = "Soko Events"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = ""
     img = "images/team/gaby-sokotech.png"
-    
-    twitter = "#"
-    linkedin = "#"
-    instagram = "#"
-    
-   
-    
-    [[params.team.item]]
-    name = "Mariana"
-    position = "Soko Kids"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/team/mariana-sokotech.png"
+    link = "/team#gaby"
     
     twitter = "#"
     linkedin = "#"
@@ -184,10 +217,11 @@ title = "SokoTech"
     
     
     [[params.team.item]]
-    name = "Barbara"
-    position = "Comms Strategy"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/team/bb-sokotech.png"
+    name = "Paca"
+    position = "CoFounder & Mentor"
+    description = ""
+    img = "images/team/paca-sokotech.jpg"
+    link = "/team#paca"
     
     twitter = "#"
     linkedin = "#"
@@ -198,20 +232,25 @@ title = "SokoTech"
     [[params.team.item]]
     name = "Edgar"
     position = "Design & Lab Manager"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = ""
     img = "images/team/edgar-sokotech.png"
+    link = "/team#edgar"
     
     twitter = "#"
     linkedin = "#"
     instagram = "#"
+    
+    
+    
        
     
     
     [[params.team.item]]
     name = "Uma"
     position = "Canine in Residence"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = ""
     img = "images/team/uma-sokotech.jpg"
+    link = "/team#uma"
     
     twitter = "#"
     linkedin = "#"
@@ -221,7 +260,7 @@ title = "SokoTech"
   # [[params.team.item]]
   #   name = "Jason Doe"
   #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   description = ""
   #   img = "../../images/person3.jpg"
   #   
   #   twitter = "#"
@@ -229,21 +268,91 @@ title = "SokoTech"
   #   instagram = "#"
   #   
 
-# Contact section
+
+
+
+
+
+
+################################################################################ Contact section
 [params.contact]
   enable = true
   title = "Contact Us"
-  message = "hola soko tech."
+  tel = "+34 93 763 85 78"
+  dir = "Carrer Valles i Ribot 34, 08027, Barcelona"
+  mail = "hello@soko.tech"
+  mascot = "/images/soko-logos/sokotech-linxs.svg"
+  logo = "/images/soko-logos/sokotech-logo-white.svg"
 
-# Footer section
-# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+
+
+
+
+
+################################################################################ Footer section
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2018 SokoTech. <br> All rights reserved.</a><br>Developed with Hugo</small></p>"
+  mascot = "/images/soko-logos/sokotech-linxs.svg"
+  note = "<p><small>&copy; 2018 SokoTech</small></p>"
   
-  twitter = "#"
+  instagram = "https://www.instagram.com/sokotech"
+  twitter = "https://twitter.com/sokotech"
+  facebook = "https://facebook.com/sokotech/"
+
+ 
+ 
+ 
   
-  vine = "#"
-  linkedin = "#"
-  instagram = "#"
+  
+############################################################################### events section
+[params.events]
+  enable = true
+
+  [[params.events.item]]
+    title = "SteamConf"
+    subtitle = "International Education Conference"
+    img = "images/home-latest-projects/sokotech-home-steamconf.jpg"
+    link = "steamconf"
+
+  [[params.events.item]]
+    title = "Smashing Conference"
+    subtitle = "For professional web designers and web developers"
+    img = "images/home-latest-projects/sokotech-home-smashingconf.jpg"
+    link = "smashing-conference"
+
+  [[params.events.item]]
+    title = "Maker Faire Barcelona"
+    subtitle = "The Greatest Show (and Tell) on Earth"
+    img = "images/home-latest-projects/sokotech-home-makerfaire.jpg"
+    link = "maker-faire-barcelona"
+    
+  [[params.events.item]]
+    title = "New Friends 2016"
+    subtitle = "International Social Robotics Conference"
+    img = "../../images/img_3.jpg"
+    link = "new-friends-2016"
+    
+  [[params.events.item]]
+    title = "Decidim"
+    subtitle = "Decidim la Barcelona que volem"
+    img = "images/home-latest-projects/sokotech-home-decidim.jpg"
+    link = "decidim"
+        
+  [[params.events.item]]
+    title = "In3dustry"
+    subtitle = "The leading international manufacturing technology show in the context of manufacturing development."
+    img = "images/home-latest-projects/sokotech-home-in3dustry.jpg"
+    link = "in3dustry"
+    
+  [[params.events.item]]
+    title = "Fab 10"
+    subtitle = "One week of events focused on open and accessible technologies that will change the world."
+    img = "images/home-latest-projects/sokotech-home-fab10.jpg"
+    link = "fab10-barcelona"    
+
+	#[[params.events.item]]
+	# title = "xxxx"
+	#subtitle = "description"
+	#img = "images/home-latest-projects/sokotech-home-fab10.jpg"
+  
   
