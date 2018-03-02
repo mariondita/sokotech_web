@@ -1497,6 +1497,55 @@ iframe {
 
 
 
+@media (max-width: 400px) { 
+	
+	#fh5co-home .fh5co-copy-inner h1 {
+	    font-size: 33px;
+	} 
+	
+	
+	.page-description-content-title {
+		margin-top: 39px;	
+	}
+	
+	.events-project-area {
+    margin: 18% 0;
+	}
+	
+	
+	#footer-logo {
+    width: 50% !important;
+    margin: 16% 0 0 0;
+	}
+	
+	
+	#fh5co-footer .fh5co-social {
+    float: right;
+	}
+	
+	
+	
+	.team-section {
+    width: 80%;
+	}
+	
+	
+	#team-description-img {
+    width: 65%;
+    margin: 1% auto 15% auto;
+	}
+	
+	
+	
+	.team-hr {
+    margin: 25% 0%;
+	}
+	
+	
+	
+}
+
+
 
 
 /*# sourceMappingURL=style.css.map */
