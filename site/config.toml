@@ -240,8 +240,8 @@ title = "SokoTech"
 
     [[params.team.item]]
     name = "Marc"
-    position = ""
-    description = "SokoKids Director"
+    position = "SokoKids Director"
+    description = ""
     img = "images/team/marc-sokotech.jpg"
     link = "#"
      
