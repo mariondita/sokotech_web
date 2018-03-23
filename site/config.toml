@@ -257,8 +257,9 @@ title = "SokoTech"
   [[params.team.item]]
      name = "Marc Hidalgo"
      position = ""
-     description = ""
+     description = "SokoKids Director"
      img = "../../images/marc.jpg"
+     link = "/team#marc"
      
      # twitter = "#"
      # linkedin = "#"
