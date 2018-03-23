@@ -1,6 +1,14 @@
 ################################################################################ Main config file for icon theme.
 theme = "icon-master"
+<<<<<<< Updated upstream
 baseURL = "http://soko.tech"
+=======
+<<<<<<< HEAD
+baseURL = "https://soko.tech"
+=======
+baseURL = "http://soko.tech"
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 title = "SokoTech"
 
 
@@ -248,16 +256,16 @@ title = "SokoTech"
     instagram = "#"
     
 
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = ""
-  #   img = "../../images/person3.jpg"
-  #   
-  #   twitter = "#"
-  #   linkedin = "#"
-  #   instagram = "#"
-  #   
+   [[params.team.item]]
+     name = "Marc Hidalgo"
+     position = ""
+     description = ""
+     img = "../../images/marc.jpg"
+     
+     # twitter = "#"
+     # linkedin = "#"
+     # instagram = "#"
+     
 
 
 
