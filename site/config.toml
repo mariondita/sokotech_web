@@ -256,7 +256,7 @@ title = "SokoTech"
     instagram = "#"
     
 
-   [[params.team.item]]
+  [[params.team.item]]
      name = "Marc Hidalgo"
      position = ""
      description = ""
