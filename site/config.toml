@@ -236,6 +236,22 @@ title = "SokoTech"
     instagram = "https://www.instagram.com/edgaar_net/"
     
     
+    
+
+    [[params.team.item]]
+    name = "Marc"
+    position = ""
+    description = "SokoKids Director"
+    img = "images/team/marc-sokotech.jpg"
+    link = "#"
+     
+    # twitter = "#"
+    # linkedin = "#"
+    instagram = "#"
+    
+    
+    
+    
     [[params.team.item]]
     name = "Uma"
     position = "Canine in Residence"
@@ -244,18 +260,6 @@ title = "SokoTech"
     link = "/team#uma"
     
     instagram = "#"
-    
-
-    [[params.team.item]]
-     name = "Marc"
-     position = ""
-     description = "SokoKids Director"
-     img = "images/team/marc.jpg"
-     link = "/team#marc"
-     
-     # twitter = "#"
-     # linkedin = "#"
-     # instagram = "#"
      
 
 
