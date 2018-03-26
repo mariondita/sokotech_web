@@ -251,6 +251,19 @@ title = "SokoTech"
     
     
     
+    [[params.team.item]]
+    name = "Manel"
+    position = "SokoLab Design & Support"
+    description = ""
+    img = "images/team/manel-sokotech.jpg"
+    link = "#"
+     
+    # twitter = "#"
+    # linkedin = "#"
+    instagram = "#"
+    
+    
+    
     
     [[params.team.item]]
     name = "Uma"
