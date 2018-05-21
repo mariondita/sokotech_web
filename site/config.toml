@@ -202,15 +202,14 @@ title = "SokoTech"
     
     
     [[params.team.item]]
-    name = "Gabriela"
-    position = "Soko Events"
+    name = "Isadora"
+    position = "Soko Kids"
     description = ""
-    img = "images/team/gaby-sokotech.png"
-    link = "/team#gaby"
+    img = "images/team/isadora-sokotech.png"
+    link = "/team#isadora"
     
-    twitter = "https://twitter.com/Gabriela00mx"
-    linkedin = "https://www.linkedin.com/in/gabrielaperezalvarez/"
-    instagram = "https://www.instagram.com/gabyxocolata"
+    artstation = "https://www.artstation.com/afterbrain"
+    linkedin = "https://es.linkedin.com/in/isadorasalvetti"
     
     
     
