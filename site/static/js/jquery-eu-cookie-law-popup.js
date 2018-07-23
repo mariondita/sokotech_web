@@ -244,9 +244,10 @@ $(document).ready( function() {
 	if ($(".eupopup").length > 0) {
 		$(document).euCookieLawPopup().init({
 			'info' : 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
-			'popupTitle' : 'This website is using cookies. ',
-			'popupText' : 'We use them to give you the best experience. If you continue using our website, we\'ll assume that you are happy to receive all cookies on this website.'
+			'popupTitle' : 'This website uses third party cookies',
+			'popupText' : 'By browsing the web you are accepting our use of cookies. For more information you can consult our Legal Notice (which can be linked).'
 		});
+		
 	}
 });
 
