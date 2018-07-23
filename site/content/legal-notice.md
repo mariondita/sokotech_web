@@ -2,4 +2,4 @@
 
 +++
 
-{{< design-description >}}
+{{< legal-notice-description >}}
