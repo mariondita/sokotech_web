@@ -156,6 +156,130 @@ title = "SokoTech"
 
 
 
+
+
+############################################################################### Team section
+[params.team]
+  enable = false
+  title = "Our Team"
+  description = "We work together with you to make your ideas happen:"
+
+  [[params.team.item]]
+    name = "Mariona"
+    position = "CoFounder & Director"
+    description = ""
+    img = "images/team/mariona-sokotech.png"
+    link = "/team#mariona"
+    
+    twitter = "https://twitter.com/mariondita"
+    linkedin = "https://linkedin.com/in/marionaaloyciller"
+    instagram = "https://www.instagram.com/mariondita"
+    
+    
+    
+    [[params.team.item]]
+    name = "Ian"
+    position = "CoFounder & Mentor"
+    description = ""
+    img = "images/team/ian-sokotech.png"
+    link = "/team#ian"
+    
+    instagram = "#"  
+    
+    
+
+    [[params.team.item]]
+    name = "Anna"
+    position = "Soko Strategy"
+    description = ""
+    img = "images/team/anna-sokotech.png"
+    link = "/team#anna"
+    
+    twitter = "https://twitter.com/amhigueras"
+    instagram = "https://www.instagram.com/am_higueras/"       
+    
+    
+    
+    
+    [[params.team.item]]
+    name = "Isadora"
+    position = "Soko Kids"
+    description = ""
+    img = "images/team/isadora-sokotech.png"
+    link = "/team#isadora"
+    
+    artstation = "https://www.artstation.com/afterbrain"
+    linkedin = "https://es.linkedin.com/in/isadorasalvetti"
+    
+    
+    
+    [[params.team.item]]
+    name = "Paca"
+    position = "Communications Senior Advisor"
+    description = ""
+    img = "images/team/paca-sokotech.jpg"
+    link = "/team#paca"
+   
+    instagram = "#"  
+    
+    
+    
+    [[params.team.item]]
+    name = "Edgar"
+    position = "Design & Lab Manager"
+    description = ""
+    img = "images/team/edgar-sokotech.png"
+    link = "/team#edgar"
+    
+
+    instagram = "https://www.instagram.com/edgaar_net/"
+    
+    
+    
+
+    [[params.team.item]]
+    name = "Marc"
+    position = "SokoKids Director"
+    description = ""
+    img = "images/team/marc-sokotech.jpg"
+    link = "/team#marc"
+     
+    # twitter = "#"
+    # linkedin = "#"
+    instagram = "#"
+    
+    
+    
+    [[params.team.item]]
+    name = "Manel"
+    position = "SokoLab Design & Support"
+    description = ""
+    img = "images/team/manel-sokotech.jpg"
+    link = "#"
+     
+    # twitter = "#"
+    linkedin = "https://www.linkedin.com/in/manelsongollechin"
+    #instagram = "#"
+    
+    
+    
+    
+    [[params.team.item]]
+    name = "Uma"
+    position = "Canine in Residence"
+    description = ""
+    img = "images/team/uma-sokotech.jpg"
+    link = "/team#uma"
+    
+    instagram = "#"
+     
+
+
+
+
+
+
+
 ################################################################################ Contact section
 [params.contact]
   enable = true
