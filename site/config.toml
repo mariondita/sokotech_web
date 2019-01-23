@@ -36,7 +36,6 @@ title = "SokoTech"
 [params.nav]
   mission = "About"
   services = "Projects"
-  team = "The Team"
   contact = "Contact"
   # Include logo instead if HOME:
   logo = "images/soko-logos/sokotech-logo.svg"
