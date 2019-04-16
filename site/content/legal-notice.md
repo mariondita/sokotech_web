@@ -1,5 +1,0 @@
-+++
-
-+++
-
-{{< legal-notice-description >}}

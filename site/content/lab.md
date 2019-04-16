@@ -1,5 +1,0 @@
-+++
-
-+++
-
-{{< lab-description >}}

@@ -1,5 +1,0 @@
-+++
-
-+++
-
-{{< design-description >}}

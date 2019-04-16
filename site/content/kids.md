@@ -1,5 +1,0 @@
-+++
-
-+++
-
-{{< kids-description >}}
