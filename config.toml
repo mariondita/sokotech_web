@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "https://soko.tech/"
 languageCode = "en-US"
 title = "SokoTech"
 author = "SokoTech"
