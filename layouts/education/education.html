@@ -1,8 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-EN{{ end }}">
+
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ with $data.education }}
 
-    {{ partial "0_1_page_head.html" . }}
+  {{ partial "0_1_page_head.html" . }}
 
   <body>
 
@@ -16,8 +19,8 @@
 
 	{{ partial "0_1_page_js.html" . }}
 
-
   </body>
+  
 </html>
 
 {{ end }}
