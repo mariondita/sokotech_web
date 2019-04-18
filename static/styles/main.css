@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  text-align: center;
+}
+
 h1,h2,h3{
 	font-family: "Montserrat", sans-serif !important;
 	text-transform: uppercase;
@@ -107,6 +111,10 @@ hr{
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
+
+  body {
+    text-align: left;
+  }
 
     .home-main-description {
       padding: 0 30%;
@@ -495,6 +503,7 @@ label {
 
 .icons-home-2-name {
   color: #333333;
+  font-size: 14px;
 }
 
 .icons-home-2-img {
@@ -624,6 +633,10 @@ label {
 
   .hero-container {
     margin-right: 25%;
+  }
+
+  .icons-home-2-name {
+    font-size: 18px;
   }
 
 }
@@ -939,7 +952,15 @@ label {
 
 #mc-embedded-subscribe {
   display: block;
-  position: absolute;
+  position: relative;
+  margin-top: 24px !important;
+  padding: 5px 0 !important;
+  height: 100% !important;
+  background: #fff !important;
+  border-radius: 3px !important;
+  color: #f27222 !important;
+  font-size: 1.5em !important;
+  font-weight: 500 !important;
 }
 
 #mc_embed_signup{
@@ -1071,8 +1092,8 @@ label {
 }
 
 #footer-logo-right {
-	width: 190px;
-  margin-bottom: 8%;
+	width: 170px;
+  margin-bottom: 13%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1635,15 +1656,6 @@ label {
   margin: 10% auto;
 }
 
-.video-content-about{
-  padding-top: 40%;
-}
-
-.video-content-about img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .container-team{
   margin-top: 12%;
 }
@@ -1653,7 +1665,8 @@ label {
   margin-top: 5% !important;
 }
 
-.team-left{
+.team-element{
+  margin-top: 50px;
   padding: 0 4% !important;
 }
 
@@ -1682,7 +1695,7 @@ label {
   margin-top: 10%;
   line-height: 1.7em;
   font-size: 17px !important;
-  text-align: left;
+  text-align: center;
 }
 
 #history-button{
@@ -1692,49 +1705,12 @@ label {
   font-style: normal;
 }
 
-@media screen and (min-width: 200px){
-  .description-about{
-    padding: 0;
-    margin: 10% auto;
-  }
-}
 
-@media screen and (min-width: 300px){
-  .description-about{
-    padding: 0;
-    margin: 10% auto;
-  }
-
-  .video-content-about{
-    padding-top: 470%;
-  }
-}
-
-@media screen and (min-width: 350px){
-  .description-about{
-    padding: 0;
-    margin: 10% auto;
-  }
-
-  .video-content-about{
-    padding-top: 310%;
-  }
-}
-@media screen and (min-width: 400px){
-  .description-about{
-    padding: 0;
-    margin: 25px 0 0 0;
-  }
-
-  .video-content-about{
-    padding-top: 220%;
-  }
-}
 @media screen and (min-width: 768px){
 
   .description-about{
     padding: 0;
-    margin: 25px 0 0 0;
+    margin: 25px 0 60px 0;
   }
 
   .video-content-about{
@@ -1746,6 +1722,10 @@ label {
   }
 }
 @media screen and (min-width: 992px){
+
+  .team-element{
+    margin-top: 0;
+  }
 
   #team-container {
     margin-top: 5%;

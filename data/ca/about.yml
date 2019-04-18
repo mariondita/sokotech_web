@@ -2,12 +2,104 @@ enable  : true
 
 item :
 
-  AboutMainTitle : Nosaltres
+  AboutTitle : About Us
 
-  AboutMainTitleDescription: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+  AboutSubtitle: Our History
 
-  AboutDescriptionTitle : "El nostre compromís"
+  AboutDescription01 : "Located in a 1920’s old chocolate factory, SokoTech is a digital social innovation laboratory that brings together an intersectoral team of experts in the design and implementation of local and international events, projects and programs related to science, art and technology. We make a difference due to our cross-pollinations nature, synthesis of knowledge in various fields, academics and non-academic ones. With a dilated and solid experience, vital and professional trajectories."
 
-  AboutDescriptionText : "El propòsit de Soko Tech és estendre l'ús i la comprensió de la tecnologia, la ciència, l'enginyeria, l'art i les matemàtiques entre el conjunt de la societat, sense tenir en compte edat, nivell de coneixements, estatus, capacitats o gènere. SokoTech vol facilitar, amb iniciatives adhoc, l'accés als coneixements i capacitats necessàries per adaptar-se a un món en canvi constant mitjançant l'ús de les tecnologies més avançades.
+  AboutDescription02: "We cultivate an extensive number of relationships, exchanges, productions and local and international collaborations that allows us to create strategic alliances SokoTech conceptualizes and implements activities regularly in Europe, the United States and Canada, and collaborates with other countries through the FabLabs networks of the MIT Center for Bits and Atoms of the Massachusetts Institute of Technology, and the Maker Faire and Makerspaces born in California and today everywhere in the world."
 
-  Vol promoure un aprenentatge a mida al llarg de la vida (lifelong learning) de manera que permeti a nois, noies, joves i adults, principiants o experts, abordar els tipus de reptes i situacions que trobaran en l'entorn real i en les ocupacions del segle 21."
+  AboutHistoryButton : "Learn more about our history here!"
+
+  AboutOurTeamTitle: Our team
+
+  AboutOurTeamSubTitle: A team with multidisciplinary value
+
+# Mariona Cíller
+
+  AboutTeamMemberName01 : Mariona Cíller
+
+  AboutTeamMemberTitle01 : Co-Founder and Creative Director at SokoTech
+
+  AboutTeamMemberBio01 : Co-founder and creative director at SokoTech, director of Maker Faire Barcelona and director of STEAMConf Barcelona. University of Illinois B.F.A, M.Sc. and Assistant Professor. Center of Bits and Atoms (MIT) Fab Academy graduate.
+
+# Cristina Checa
+
+  AboutTeamMemberName02 : Cristina Checa
+
+  AboutTeamMemberTitle02 : Projects director
+
+  AboutTeamMemberBio02 : Graduada en ingeniería técnica de telecomunicaciones y con posgrado en gestión global de la música, Cristina Checa trabaja en la intersección entre música, creatividad y tecnología.
+
+# Moira Barril
+
+  AboutTeamMemberName03 : Moira Barril
+
+  AboutTeamMemberTitle03 : Office & Events Manager
+
+  AboutTeamMemberBio03 : Llicenciat en ADE, amb interès en la gestió de projectes en àrees ambientals i/o socials. Compta amb experiència en empreses de diferents àmbits. Està molt motivada per aprendre coses noves i li encanta treballar en equip. És una persona eficient, decidida, compromesa i planificada amb la gestió de projectes.
+
+# Edgar Aguilar
+
+  AboutTeamMemberName04 : Edgar Aguilar
+
+  AboutTeamMemberTitle04 : Design & Lab Manager
+
+  AboutTeamMemberBio04 : Dissenyador industrial, també és dissenyador gràfic i d'espais. Fotògraf professional i expert en fabricació digital, es va graduar a la Fab Academy per l'Institut de Tecnologia de Massachusetts (MIT).
+
+# Anna Higueras
+
+  AboutTeamMemberName05 : Anna Higueras
+
+  AboutTeamMemberTitle05 : Strategy Manager
+
+  AboutTeamMemberBio05 : Enginyera química per l’Universitat Politècnica de Catalunya (UPC), postgrau en Direcció d'Empreses de la Indústria Musical per la Universitat Pompeu Fabra. Enginyera convertida en gerent de la indústria de la música, la cultura i la tecnologia.
+
+# Ángela Precht
+
+  AboutTeamMemberName06 : Ángela Precht
+
+  AboutTeamMemberTitle06 : Communication Strategist
+
+  AboutTeamMemberBio06 : I work in communication strategy, journalism, research, copywriting and content design. I believe communication is able to connect people and ideas, and trigger collaborations / sensibilities that make positive changes happen.
+
+# Marta Berbel
+
+  AboutTeamMemberName07 : Marta Berbel
+
+  AboutTeamMemberTitle07 : Communication Strategist
+
+  AboutTeamMemberBio07 : Periodista i comunicadora, graduada a la Universitat Autònoma de Barcelona, amb la voluntat de donar veu a grans i petits projectes i iniciatives i apropar-les a les persones, especialment sensibilitzada amb l’àmbit cultural i social.
+
+# Albert Bercero
+
+  AboutTeamMemberName08 : Albert Bercero
+
+  AboutTeamMemberTitle08 : STEAM Director
+
+  AboutTeamMemberBio08 : Apassionat pel disseny i l’educació, és graduat per la Universitat Politècnica de Catalunya (UPC) com a Enginyer de Disseny Industrial i Desenvolupament del Producte.
+
+# Paca Cíller
+
+  AboutTeamMemberName09 : Paca Cíller
+
+  AboutTeamMemberTitle09 : Scientific and Technological Culture advisor
+
+  AboutTeamMemberBio09 : Former director of the communication department at “la Caixa” Foundation, director of international relations and programs of CosmoCaixa, the Museum of Science of Barcelona and executive director of the European Network of Science Centers and Museums (ECSITE).
+
+# Uma
+
+  AboutTeamMemberName10 : Uma
+
+  AboutTeamMemberTitle10 : Canine in residence
+
+  AboutTeamMemberBio10 : Receptionist by vocation executes her work with efficiency and enthusiasm providing guests with a highly & friendly welcome. She adores to greet and lionize anyone who visits SOKO with a very good mood, she is also in charge of the neighborhood public relations.
+
+# Ian
+
+  AboutTeamMemberName11 : Ian
+
+  AboutTeamMemberTitle11 : Co-founder
+
+  AboutTeamMemberBio11 : Takes his first steps in Carbondale, Southern Illinois (USA) where while discovering the world and self-learning, encouraged by their teachers, takes care for a vegetable garden in a Montessori Kindergarten.
