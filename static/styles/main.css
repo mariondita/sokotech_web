@@ -998,10 +998,17 @@ label {
     margin: 40px 0;
   }
 
-  #mc-embedded-subscribe {
-    display: block;
-    position: absolute;
-  }
+#mc_embed_signup form {
+    padding: 0 !important;
+}
+
+#mc-embedded-subscribe {
+  height: 33px !important;
+  width: 100px !important;
+  margin: 10px 20px 0 20px !important;
+  font-size: 1.2em !important;
+  line-height: 0px !important;
+}
 
   .content-mail{
     margin: 37px 0 !important;
@@ -1011,6 +1018,14 @@ label {
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
+
+  #mc-embedded-subscribe {
+    height: 33px ;
+    width: 100px ;
+    margin: 0 20px ;
+    font-size: 1.2em ;
+    line-height: 0px ;
+  }
 
 }
 
