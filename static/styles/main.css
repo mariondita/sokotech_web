@@ -1700,11 +1700,12 @@ label {
 .team-element{
   margin-top: 50px;
   padding: 0 4% !important;
+  text-align: left;
 }
 
 .team-img{
-  border-radius: 50%;
-  width: 70%;
+  border-radius: 15px;
+  width: 100%;
   display: block;
   position: relative;
   margin: 0 auto 10% auto;
@@ -1714,6 +1715,7 @@ label {
   font-weight: 500;
   color: #f27222 !important;
   text-transform: none !important;
+  text-align: left;
 }
 
 .team-subtitle{
@@ -1726,7 +1728,7 @@ label {
 .team-bio{
   margin-top: 10%;
   font-size: 1.3em;
-  text-align: center;
+  text-align: left;
 }
 
 #history-button{
