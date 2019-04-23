@@ -743,7 +743,7 @@ label {
 @media screen and  (min-width: 576px) {
 
   .header-description-home {
-    margin: 15% 0 3%;
+    margin: 10% 0 3%;
   }
 
 }
@@ -1045,6 +1045,23 @@ label {
 	width:100%;
 }
 
+.map-overlay {
+  background-color: transparent;
+  width: 85%;
+  height: 305px;
+  position: absolute;
+  display: block;
+  right: 0;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and  (min-width: 992px) {
+
+  .map-overlay {
+    width: 95%;
+  }
+
+}
 
 /* ----- FOOTER -------- */
 
