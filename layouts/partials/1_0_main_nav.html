@@ -95,6 +95,8 @@
 
 	<!-- end of sticky nav -->
 
+<!----------- HERO ------------------------>
+
 	<div class="hero">
 
 		<div class="container-fluid">
@@ -109,7 +111,9 @@
 
 		</div> <!-- container -->
 
-		<input type="checkbox" id="op"></input>
+<!----------- NAV OVERLAY ------------------>
+
+	 <input type="checkbox" id="op"></input>
 
 		<div class="lower">
 
@@ -121,63 +125,54 @@
 
 			<label for="op"></label>
 
-				<nav>
+				<nav class="overlay-nav">
 
-					<ul>
+					<ul class="overlay-ul">
 
-						<li><a href="#">{{ .item.OverlayNavItemOne }}</a></li>
+						<li class="overlay-nav-item"><a href="#">{{ .item.OverlayNavItemOne }}</a></li>
 
-						<li><a href="../../education">Education</a></li>
+						<li class="overlay-nav-item"><a href="../../education">Education</a></li>
 
-						<li><a href="../../medialab">Communication</a></li>
+						<li class="overlay-nav-item"><a href="../../medialab">Communication</a></li>
 
-						<li><a href="../../events">Events</a></li>
+						<li class="overlay-nav-item"><a href="../../events">Events</a></li>
 
-						<li><a href="f../../../../fablab">Lab / Design </a></li>
+						<li class="overlay-nav-item"><a href="f../../../../fablab">Lab / Design </a></li>
 
-						<li><a href="../../space">{{ .item.OverlayNavItemSix }}</a></li>
+						<li class="overlay-nav-item"><a href="../../space">{{ .item.OverlayNavItemSix }}</a></li>
 
 					</ul> <!-- ul -->
 
 				<div class="square">
 
-					<div class="square-subnav-item-1">
+					<div class="square-subnav-items">
 
-						<h6><a href="#contact">{{ .item.OverlayNavItemSeven }}</a></h6>
+						<h6 class="overlay-nav-contact-h6">
+							<a class="square-subnav-items-a" href="#contact">{{ .item.OverlayNavItemSeven }}</a>
+							<a class="square-subnav-items-a" href="about">{{ .item.OverlayNavItemEight }}</a>
+							<a class="square-subnav-items-a" href="history">{{ .item.OverlayNavItemNine }}</a>
+						</h6>
 
-					</div>  <!-- square-subnav-item -->
+						<div class="overlay-nav-contact">
 
-					<div class="square-subnav-item-2">
+							<h6 class="overlay-nav-contact-item">
+								<a href="mailto:hola@soko.tech">hola@soko.tech</a>
+							</h6>
 
-						<h6><a href="about">{{ .item.OverlayNavItemEight }}</a></h6>
+							<h6 class="overlay-nav-contact-item">
+								<a href="tel:=34937638578">+34 93 763 85 78</a>
+							</h6>
 
-					</div>  <!-- square-subnav-item -->
+							<h6 class="overlay-nav-contact-item">
+								<a href="https://www.openstreetmap.org/node/5867783456">Carrer Valles i Ribot, 44 08027, Barcelona</a>
+							</h6>
 
-					<div class="square-subnav-item-3">
-
-						<h6><a href="history">{{ .item.OverlayNavItemNine }}</a></h6>
+						</div>
 
 					</div>  <!-- square-subnav-item -->
 
 				</div>  <!-- square -->
 
-				<div class="contact">
-
-					<h6 id="contact-1">{{ .item.OverlayNavItemTen }}</h6>
-
-					<h6 id="soko-mail"><a href="mailto:hola@soko.tech">hola@soko.tech</a></h6>
-
-					<h6 id="contact-2"><a href="tel:=34937638578"> +34 93 763 85 78</a></h6>
-
-					<h6 id="contact-3"><a href="https://wa.me/34699571897"> +34 699 571 897</a></h6>
-
-				</div>
-
-				<div class="address">
-
-					<h6 id="contact-4">Carrer Valles i Ribot, 44 <br> 08027, Barcelona</h6>
-
-				</div>  <!-- address -->
 
 			</nav> <!-- nav -->
 

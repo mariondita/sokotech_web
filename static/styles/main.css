@@ -60,7 +60,6 @@ p{
   line-height: 1.4em;
 }
 
-
 hr{
 	margin-top: 10px !important;
 	height: 3px !important;
@@ -71,9 +70,6 @@ hr{
   border-top: none;
 }
 
-
-
- /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
     h2{
@@ -109,7 +105,6 @@ hr{
 
   }
 
-/* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
 
   body {
@@ -122,7 +117,6 @@ hr{
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
 
 }
@@ -223,7 +217,6 @@ hr{
   margin: 150px 0 0 0;
 }
 
-
 .breadcrumb {
     padding: 3px 16px !important;
     margin-bottom: 0px !important;
@@ -247,26 +240,246 @@ hr{
     color: #F27222 !important;
 }
 
- /* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
-    .breadcrumb-bar > .container {
-      padding: 0;
-    }
-
+  .breadcrumb-bar > .container {
+    padding: 0;
   }
+}
 
-/* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
-
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
 
 }
 
+/* ----- OVERLAY NAV ---------- */
+
+label {
+	display: inline !important;
+}
+
+input{
+  display:none;
+}
+
+.lower{
+  width:27px;
+  height: 25px;
+  opacity:1;
+  color:black;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.lower label{
+  font-weight: 300;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+.lower p{
+  position: absolute;
+  opacity: 0;
+  float: left;
+  margin: auto;
+}
+.lower img{
+  float: right;
+  margin: auto;
+}
+
+.lower:hover .tmen{
+	font-weight: 200;
+	color: white;
+    opacity: 1;
+    transform: translateX(-60px);
+    transition: opacity 0.5s;
+}
+
+.lower label:hover{
+  cursor:pointer;
+}
+
+.lower~.overlay-hugeinc{
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.square{
+  display: flex;
+  flex-direction: row;
+	width: 90%;
+	background-color: #fff;
+	margin: 40px auto;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.square-subnav-items a{
+	font-size: 1.5em;
+  color: rgb(46, 46, 46) !important;
+  font-weight: 500;
+  margin: 0 5px;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.square-subnav-items a:hover{
+  color: #f27222 !important;
+}
+
+.subnav{
+	position: relative;
+	font-size: 20px;
+	color: #f27222;
+	font-weight: 200;
+	margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.subnav:hover {
+	text-decoration: underline;
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(51,51,51,0.95);
+}
+
+.overlay-nav {
+  top: 50px;
+}
+
+.overlay-ul {
+  margin-top: 61px;
+  text-align: center;
+  padding: 0;
+}
+
+.overlay-nav-item a {
+  color: white !important;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2em;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.overlay-nav-item a:hover {
+  color: #f27222 !important;
+}
+
+.overlay label{
+	width: 27px;
+	height:25px;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	background: url('../img/00/sokotech_nav_menu_exit_icon.svg');
+	z-index: 100;
+  cursor:pointer;
+}
+
+.overlay-nav-contact {
+  text-align: center;
+}
+
+.overlay-nav-contact-h6 {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.overlay-nav-contact-item {
+  border-top: 2px solid #dadada;
+  padding: 15px 0px 7px 0;
+}
+
+.overlay-nav-contact-item a{
+  font-size: 1.5em;
+  font-size: 400;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.overlay-nav-contact-item a:hover{
+  color: #f27222 !important;
+}
+
+#op:checked~.overlay-hugeinc{
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+@media screen and  (min-width: 576px) {
+
+  .overlay-nav-item a {
+    font-size: 2.5em;
+  }
+
+  .square{
+  	width: 60%;
+  }
+
+
+
+}
+
+@media screen and  (min-width: 768px) {
+
+  .overlay-nav-item a {
+    font-size: 3em;
+  }
+
+  .square{
+  	width: 50%;
+  }
+
+
+
+}
+
+@media screen and  (min-width: 992px) {
+
+  .square{
+  	width: 40%;
+  }
+
+    .square-subnav-items a{
+    	font-size: 1.7em;
+      margin: 0 15px;
+    }
+
+}
+
+@media screen and  (min-width: 1200px) {
+
+  .square{
+  	width: 33%;
+  }
+
+}
 
 /* ----- 1_0_home_Header ---------- */
 
@@ -315,171 +528,6 @@ hr{
   font-weight: 700;
 }
 
-.bg-img-space {
-	background-color: #f27222;
-    /* The image used */
-    background-image: url('../img/0-07/sokotech_space_stage.jpg');
-    background-blend-mode: multiply;
-    /* Full height */
-    height: 50%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 11;
-    display: block;
-    position: relative;
-}
-
-label {
-	display: inline !important;
-}
-
-.square{
-  display: flex;
-  flex-direction: row;
-	padding: 9px;
-	width: 90%;
-	background-color: #fff;
-	margin: 7% auto 4%;
-  padding: 0
-  align-items: center;
-  justify-content: center;
-}
-
-.square-subnav-item-1, .square-subnav-item-2, .square-subnav-item-3{
-	color: #f27222;
-	font-weight: 400;
-  margin: 0 3%;
-}
-
-.square-subnav-item-2 {
-    border-right: 1px solid #f27222;
-    border-left: 1px solid #f27222;
-    padding: 0 5%
-}
-
-.square-subnav-item-1 h6 a, .square-subnav-item-2 h6 a, .square-subnav-item-3 h6 a{
-	font-size: 1.3em;
-  font-weight: 300;
-}
-
-.subnav:hover {
-	text-decoration: underline !important;
-}
-.overlay{
-	position: fixed;
-  display: block;
-  z-index: 2;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(51,51,51,0.95);
-}
-
-.overlay label{
-	width: 27px;
-	height:25px;
-	position: absolute;
-	right: 25px;
-	top: 30px;
-	background: url('../img/01/close.svg');
-	z-index: 100;
-    cursor:pointer;
-}
-
-.overlay nav {
-	text-align: center;
-	position: relative;
-	font-family: 'roboto';
-	font-size: 48px;
-	font-weight: 200;
-	color: white;
-	top: 35%;
-	height: 40%;
-	line-height: 50px;
-	-webkit-transform: translateY(-65%);
-	transform: translateY(-65%);
-}
-
-.contact{
-	font-size: 0.3em;
-  display: flex;
-  flex-direction: column;
-  margin: 3% 0 0 0;
-  padding: 0
-  align-items: center;
-  justify-content: center;
-}
-
-.contact a{
-	text-decoration: underline !important;
-}
-
-#contact-1 {
-  line-height: 20px;
-  text-align: center;
-}
-
-.contact h6{
-  font-weight: 400;
-  margin: 3% 0%;
-}
-
-#contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
-  font-size: 1.1em;
-}
-
-.address{
-	font-size: 0.3em;
-  display: flex;
-  flex-direction: column;
-  margin: 3% 0 0 0;
-  padding: 0
-  align-items: center;
-  justify-content: center;
-}
-
-#contact-4 {
-  line-height: 20px;
-  text-align: center;
-}
-
-.overlay ul {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-	display: inline-block;
-	height: 100%;
-	position: relative;
-}
-
-.overlay ul li {
-	display: block;
-	height: 20%;
-	height: calc(100% / 7);
-	min-height: 48px;
-  font-size: 0.6em;
-}
-
-.overlay ul li a {
-	font-weight: 600;
-	display: block;
-	color: white !important;
-  text-decoration:none;
-	-webkit-transition: color 0.2s;
-	transition: color 0.2s;
-  font-family: 'Prompt';
-  text-transform:uppercase;
-}
-
-.overlay ul li a:hover,
-.overlay ul li a:focus {
-	color: #aaa !important;
-}
-
 #bg_icons_2_element {
   text-align: center;
   color: #3333;
@@ -510,7 +558,7 @@ label {
   width: 47%;
 }
 
-/* Small devices (tablets, 576px and up) */
+
 @media screen and (min-width: 576px) {
 
   .logo{
@@ -518,44 +566,6 @@ label {
   	top: 25px;
   	left: 25px;
   	width: 120px;
-  }
-
-  .overlay nav {
-    height: 25%;
-    top: 27%;
-  }
-
-  .overlay ul li {
-  	display: block;
-  	height: 20%;
-  	height: calc(100% / 9);
-  	min-height: 48px;
-  }
-
-  .overlay ul li {
-  	  font-size: 0.8em;
-      margin-bottom: 5%;
-  }
-
-  .contact{
-  	margin-top:7%;
-  	font-size: 0.3em;
-    display: flex; /* or inline-flex */
-    flex-direction: row;
-  }
-
-  .contact h6{
-    font-weight: 400;
-    margin: 0 4%;
-  }
-
-
-  .square-subnav-item-1 h6 a, .square-subnav-item-2 h6 a, .square-subnav-item-3 h6 a{
-  	font-size: 1.7em;
-  }
-
-  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
-    font-size: 1.1em;
   }
 
   .hero-description {
@@ -566,7 +576,7 @@ label {
   }
 
 }
-/* Small devices (tablets, 768px and up) */
+
 @media screen and (min-width: 768px) {
 
   .logo{
@@ -576,47 +586,9 @@ label {
   	width: 130px;
   }
 
-  .overlay nav {
-    height: 25%;
-    top: 27%;
-}
-
-  .overlay ul li {
-  	display: block;
-  	height: 20%;
-  	height: calc(100% / 9);
-  	min-height: 48px;
+  .hero {
+    height: 650px;
   }
-
-  .overlay ul li {
-  	  font-size: 0.8em;
-      margin-bottom: 5%;
-  }
-
-  .contact{
-  	margin-top:7%;
-  	font-size: 0.3em;
-    display: flex; /* or inline-flex */
-    flex-direction: row;
-  }
-
-  .contact h6{
-    font-weight: 400;
-    margin: 0 4%;
-  }
-
-
-  .square-subnav-item-1 h6 a, .square-subnav-item-2 h6 a, .square-subnav-item-3 h6 a{
-  	font-size: 1.7em;
-  }
-
-  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
-    font-size: 1.1em;
-  }
-
-    .hero {
-      height: 650px;
-    }
 
   .hero-description {
     display: block;
@@ -641,7 +613,6 @@ label {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
 @media screen and  (min-width: 992px) {
 
   .hero {
@@ -650,24 +621,6 @@ label {
 
   .logo{
     width: 160px;
-  }
-
-  .overlay nav {
-    height: 15%;
-    top: 27%;
-  }
-
-  .overlay ul li {
-    font-size: 1em;
-    margin-bottom: 10%;
-  }
-
-  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
-    font-size: 1.3em;
-  }
-
-  #container-hero-description {
-    margin-right: 19%;
   }
 
   .hero-description {
@@ -696,36 +649,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
 @media screen and  (min-width: 1200px) {
-
-  .overlay nav {
-      height: 25%;
-    }
-
-  .overlay ul li {
-    font-size: 1em;
-    margin-bottom: 10%;
-  }
-
-  .square-subnav-item-1 h6 a, .square-subnav-item-2 h6 a, .square-subnav-item-3 h6 a{
-  	font-size: 2.3em;
-  }
-
-  #contact-1, #soko-mail, #contact-2, #contact-3, #contact-4 {
-    font-size: 1.5em;
-  }
-
-  .contact {
-    flex-direction: row;
-    margin: 0 15%;
-  }
-
-  .contact h6 {
-
-    font-weight: 400;
-    margin: 0 2%;
-  }
 
   .hero-description {
     margin: 0 45% 0 9%;
@@ -739,7 +663,6 @@ label {
   padding: 45px 0 71px 0;
 }
 
-/* Small devices (tablets, 576px and up) */
 @media screen and  (min-width: 576px) {
 
   .header-description-home {
@@ -748,17 +671,14 @@ label {
 
 }
 
-/* Small devices (tablets, 768px and up) */
 @media screen and  (min-width: 768px) {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
   .icons-home{
@@ -874,19 +794,19 @@ label {
 
 }
 
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
 
 
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
 
 }
@@ -916,12 +836,12 @@ label {
 
 }
 
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
   .home-companies-section {
@@ -930,7 +850,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
 
 }
@@ -986,7 +906,7 @@ label {
 
 }
 
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
 
   #subscribe-mailing-text-h2 {
@@ -1016,7 +936,7 @@ label {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
   #mc-embedded-subscribe {
@@ -1029,7 +949,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
 
 }
@@ -1054,7 +974,7 @@ label {
   right: 0;
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
   .map-overlay {
@@ -1170,12 +1090,12 @@ label {
 
 }
 
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
   #footer-box-gray-left {
@@ -1202,7 +1122,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
 
 }
@@ -1237,8 +1157,8 @@ label {
   max-height: 100%;
 }
 
-#education-upcoming-workshops-title-container {
-  margin: 2% auto;
+#education-upcoming-workshops-title-container, #lab-upcoming-workshops-title-container, #events-upcoming-workshops-title-container {
+  margin: 0 auto 25px auto;
 }
 
 .education-upcoming-workshops {
@@ -1276,7 +1196,7 @@ label {
 
 }
 
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
 
   .page-description-img{
@@ -1293,7 +1213,7 @@ label {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
   .page-description-img{
@@ -1311,7 +1231,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
 
   .page-description-img{
@@ -1426,7 +1346,7 @@ label {
   }
 
 }
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
 
 
@@ -1437,7 +1357,7 @@ label {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
 
@@ -1447,7 +1367,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
 
 
@@ -1475,12 +1395,12 @@ label {
 @media screen and (min-width: 576px){
 
 }
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
 
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
 
   .medialab-projects-areas, .events-projects-area, .fablab-projects-area, .space-areas {
@@ -1489,7 +1409,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
 
 }
@@ -1583,7 +1503,7 @@ label {
     padding-top: 0%;
   }
 }
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
   .fablab-more-info{
     text-align: center;
@@ -1598,7 +1518,7 @@ label {
   }
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
   .fablab-more-info{
     text-align: center;
@@ -1613,7 +1533,7 @@ label {
   }
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
   .fablab-more-info{
     text-align: center;
@@ -1634,7 +1554,7 @@ label {
 @media screen and  (min-width: 576px) {
 
 }
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
   .space-more-info{
     text-align: center;
@@ -1649,7 +1569,7 @@ label {
   }
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
   .space-more-info{
     text-align: center;
@@ -1663,7 +1583,7 @@ label {
   }
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
   .space-more-info{
     text-align: center;
@@ -1905,7 +1825,7 @@ label {
     margin-top: -15%;
   }
 }
-/* Small devices (tablets, 768px and up) */
+
 @media screen and  (min-width: 768px) {
   .bubble-h{
     margin-top: 3%;
@@ -1917,7 +1837,7 @@ label {
   }
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media screen and  (min-width: 992px) {
   .bubble-h{
     margin-top: 1%;
@@ -1930,7 +1850,7 @@ label {
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media screen and  (min-width: 1200px) {
   .bubble-h{
     margin-top: -2%;
