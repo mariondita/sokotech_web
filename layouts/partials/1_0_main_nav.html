@@ -37,7 +37,7 @@
 
 					</button>	<!-- button -->
 
-					<a class="navbar-brand" href=""> <img src="../img/00/sokotech_logo_black.svg" alt="sokotech"> </a>
+					<a class="navbar-brand" href=""> <img src="{{ "img/00/sokotech_logo_black.svg" | absURL }}" alt="sokotech"> </a>
 
 				</div>	<!-- navbar-header -->
 
@@ -50,7 +50,7 @@
 						</li>
 
 						<li>
-							<a href="../../about">About</a>
+							<a href="{{ "about" | absURL }}">About</a>
 						</li>
 
 						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
@@ -60,19 +60,19 @@
 							<ul class="dropdown-menu">
 
 								<li>
-									<a href="../../education">Education</a>
+									<a href="{{ "education" | absURL }}">Education</a>
 								</li>
 								<li>
-									<a href="../../medialab">Communication</a>
+									<a href="{{ "medialab" | absURL }}">Communication</a>
 								</li>
 								<li>
-									<a href="../../events">Events</a>
+									<a href="{{ "events" | absURL }}">Events</a>
 								</li>
 								<li>
-									<a href="../../fablab">Lab / Design</a>
+									<a href="{{ "fablab" | absURL }}">Lab / Design</a>
 								</li>
 								<li>
-									<a href="../../space">Space</a>
+									<a href="{{ "space" | absURL }}">Space</a>
 								</li>
 
 							</ul>	<!-- dropdown-menu -->
@@ -80,7 +80,7 @@
 						</li> <!-- dropdown -->
 
 						<li>
-							<a href="#contact">Contact</a>
+							<a href="{{ "#contact" | absURL }}">Contact</a>
 						</li>
 
 					</ul> <!-- nav navbar-nav -->
@@ -101,7 +101,7 @@
 
 		<div class="container-fluid">
 
-			<a href="#"><img class="logo"  src="../img/00/sokotech_logo_white.svg"></a>
+			<a href="{{ .Site.BaseURL }}"><img class="logo"  src="{{ "img/00/sokotech_logo_white.svg" | absURL }}"></a>
 
 				<div class="hero-description">
 
@@ -117,7 +117,7 @@
 
 		<div class="lower">
 
-			<label for="op"> <img class="bg_menu"  src="../img/00/sokotech_nav_menu_icon.svg"><p class="tmen">Menu</p></label>
+			<label for="op"> <img class="bg_menu"  src="{{ "img/00/sokotech_nav_menu_icon.svg" | absURL }}"><p class="tmen">Menu</p></label>
 
 		</div> <!-- lower -->
 
@@ -129,31 +129,25 @@
 
 					<ul class="overlay-ul">
 
-						<li class="overlay-nav-item"><a href="#">{{ .item.OverlayNavItemOne }}</a></li>
+						<li class="overlay-nav-item"><a href="{{ .Site.BaseURL }}">{{ .item.OverlayNavItemOne }}</a></li>
 
-						<li class="overlay-nav-item"><a href="../../education">Education</a></li>
+						<li class="overlay-nav-item"><a href="{{ "about" | absURL }}">About Us</a></li>
 
-						<li class="overlay-nav-item"><a href="../../medialab">Communication</a></li>
+						<li class="overlay-nav-item"><a href="{{ "education" | absURL }}">Education</a></li>
 
-						<li class="overlay-nav-item"><a href="../../events">Events</a></li>
+						<li class="overlay-nav-item"><a href="{{ "medialab" | absURL }}">Communication</a></li>
 
-						<li class="overlay-nav-item"><a href="f../../../../fablab">Lab / Design </a></li>
+						<li class="overlay-nav-item"><a href="{{ "events" | absURL }}">Events</a></li>
 
-						<li class="overlay-nav-item"><a href="../../space">{{ .item.OverlayNavItemSix }}</a></li>
+						<li class="overlay-nav-item"><a href="{{ "fablab" | absURL }}">Lab / Design </a></li>
+
+						<li class="overlay-nav-item"><a href="{{ "space" | absURL }}">{{ .item.OverlayNavItemSix }}</a></li>
+
+						<li class="overlay-nav-item"><a href="{{ "history" | absURL }}">History</a></li>
 
 					</ul> <!-- ul -->
 
-				<div class="square">
-
-					<div class="square-subnav-items">
-
-						<h6 class="overlay-nav-contact-h6">
-							<a class="square-subnav-items-a" href="#contact">{{ .item.OverlayNavItemSeven }}</a>
-							<a class="square-subnav-items-a" href="about">{{ .item.OverlayNavItemEight }}</a>
-							<a class="square-subnav-items-a" href="history">{{ .item.OverlayNavItemNine }}</a>
-						</h6>
-
-						<div class="overlay-nav-contact">
+				<div class="overlay-nav-contact">
 
 							<h6 class="overlay-nav-contact-item">
 								<a href="mailto:hola@soko.tech">hola@soko.tech</a>
@@ -163,15 +157,11 @@
 								<a href="tel:=34937638578">+34 93 763 85 78</a>
 							</h6>
 
-							<h6 class="overlay-nav-contact-item">
+							<h6 class="overlay-nav-contact-item overlay-nav-contact-item-last">
 								<a href="https://www.openstreetmap.org/node/5867783456">Carrer Valles i Ribot, 44 08027, Barcelona</a>
 							</h6>
 
-						</div>
-
-					</div>  <!-- square-subnav-item -->
-
-				</div>  <!-- square -->
+				</div>  <!-- overlay-nav-contact -->
 
 
 			</nav> <!-- nav -->

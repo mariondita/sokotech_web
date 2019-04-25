@@ -1,6 +1,6 @@
 /* ----- fonts --------- */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto:400,700');
 
 /* ----- General --------- */
 
@@ -46,7 +46,7 @@ li a{
 }
 
 p{
-	font-family:"roboto";
+	font-family: 'Roboto', sans-serif;
 	font-size: 21px;
 	color: #434343;
 	font-weight: 400;
@@ -311,32 +311,6 @@ input{
 	transition: opacity 0.5s, visibility 0s 0.5s;
 }
 
-.square{
-  display: flex;
-  flex-direction: row;
-	width: 90%;
-	background-color: #fff;
-	margin: 40px auto;
-  justify-content: center;
-  border-radius: 10px;
-}
-
-.square-subnav-items a{
-	font-size: 1.5em;
-  color: rgb(46, 46, 46) !important;
-  font-weight: 500;
-  margin: 0 5px;
-  -o-transition:.3s;
-  -ms-transition:.3s;
-  -moz-transition:.3s;
-  -webkit-transition:.3s;
-  transition:.3s;
-}
-
-.square-subnav-items a:hover{
-  color: #f27222 !important;
-}
-
 .subnav{
 	position: relative;
 	font-size: 20px;
@@ -411,6 +385,11 @@ input{
   padding: 15px 0px 7px 0;
 }
 
+.overlay-nav-contact-item-last {
+  border-bottom: 2px solid #dadada;
+  padding-bottom: 15px !important;
+}
+
 .overlay-nav-contact-item a{
   font-size: 1.5em;
   font-size: 400;
@@ -438,45 +417,32 @@ input{
     font-size: 2.5em;
   }
 
-  .square{
-  	width: 60%;
-  }
-
-
-
 }
 
 @media screen and  (min-width: 768px) {
+
+  .overlay-nav-contact {
+    padding: 0 150px;
+  }
 
   .overlay-nav-item a {
     font-size: 3em;
   }
 
-  .square{
-  	width: 50%;
-  }
-
-
-
 }
 
 @media screen and  (min-width: 992px) {
 
-  .square{
-  	width: 40%;
+  .overlay-nav-contact {
+    padding: 0 250px;
   }
-
-    .square-subnav-items a{
-    	font-size: 1.7em;
-      margin: 0 15px;
-    }
 
 }
 
 @media screen and  (min-width: 1200px) {
 
-  .square{
-  	width: 33%;
+  .overlay-nav-contact {
+    padding: 0 450px;
   }
 
 }
@@ -607,8 +573,15 @@ input{
     margin-right: 25%;
   }
 
-  .icons-home-2-name {
+  .icons-home-title {
     font-size: 18px;
+    font-weight: 600;
+  }
+
+  .icons-home-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
   }
 
 }
@@ -643,8 +616,14 @@ input{
     width: 49%;
   }
 
-  .icons-home-2-name {
+  .icons-home-title {
     color: #333333;
+  }
+
+  .icons-home-2-name {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 
 }
@@ -672,6 +651,10 @@ input{
 }
 
 @media screen and  (min-width: 768px) {
+
+    .icons-home-2-name {
+      font-size: 18px;
+    }
 
 }
 
@@ -1157,7 +1140,7 @@ input{
   max-height: 100%;
 }
 
-#education-upcoming-workshops-title-container, #lab-upcoming-workshops-title-container, #events-upcoming-workshops-title-container {
+#education-upcoming-workshops-title-container, #lab-upcoming-workshops-title-container, #events-upcoming-workshops-title-containerDe {
   margin: 0 auto 25px auto;
 }
 
