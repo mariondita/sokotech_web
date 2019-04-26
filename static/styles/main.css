@@ -504,11 +504,15 @@ input{
 }
 
 #home-description-icons-row-01 {
-  margin: 39px 0;
+  margin: 0;
 }
 
 #home-description-icons-row-02 {
   margin: 20px 0;
+}
+
+.icons-home {
+  margin-top: 35px;
 }
 
 .icons-home-2-img {
@@ -523,6 +527,18 @@ input{
 .icons-home-2-img {
   width: 47%;
 }
+
+.icons-home-title {
+  color: rgb(59, 59, 59);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+  .icons-home-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+  }
 
 
 @media screen and (min-width: 576px) {
@@ -574,6 +590,7 @@ input{
   }
 
   .icons-home-title {
+    color: rgb(59, 59, 59);
     font-size: 18px;
     font-weight: 600;
   }
@@ -652,6 +669,11 @@ input{
 
 @media screen and  (min-width: 768px) {
 
+  .icons-home{
+    margin-top: 45px;
+    margin-left:3%;
+  }
+
     .icons-home-2-name {
       font-size: 18px;
     }
@@ -660,13 +682,16 @@ input{
 
 @media screen and (min-width: 992px) {
 
+    .icons-home{
+      margin-top: 35px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
 
   .icons-home{
-    margin-top: 10%;
-    margin-left:3%;
+    margin-top: 0px;
   }
 
   .icons-home-2{
@@ -812,6 +837,7 @@ input{
   display: block;
   max-width: 50%;
   height: auto;
+  margin: 0 auto;
 }
 
 
