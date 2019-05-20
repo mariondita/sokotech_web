@@ -1,0 +1,128 @@
+/* ----- fonts --------- */
+
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+/* ----- alert campus --------- */
+
+#alert_campus
+{
+	background:transparent !important;
+}
+#alert_campus a
+{
+	color:white !important;
+}
+#alert_campus .modal-body
+{
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+}
+#alert_campus .modal-header
+{
+	border-bottom:0;
+	padding:15px 15px 0 0;
+}
+#alert_campus img
+{
+	width:100%;
+	display:block;
+	padding:0px;
+	margin:auto;
+	aposition:absolute;
+}
+#alert_campus h2
+{
+	margin-top:0;
+	margin-bottom:0;
+   font-family: 'Luckiest Guy', cursive !important;
+   font-size:40px;
+}
+
+#alert_campus h4
+{
+	margin-top:0;
+	font-weight:normal;
+	color:gray;
+}
+
+#alert_campus .lead
+{
+	margin-top:30px !important;
+}
+
+#alert_campus .row
+{
+	margin:30px 0 30px 0!important;
+}
+
+/* ----- page campus --------- */
+.campus_info
+{
+	padding:150px 0 100px 0;
+}
+
+.campus_info img
+{
+	width:100%;
+	display:block;
+	amargin:auto;
+}
+.campus_info h1
+{
+	margin-top:20px;
+	margin-bottom:60px;
+   font-family: 'Luckiest Guy', cursive !important;
+   font-size:60px;
+   background:#f27222;
+   color:white;
+   padding:20px 20px 10px 20px;
+   text-align:center;
+}
+.campus_info .lead
+{
+	margin-bottom:50px;
+}
+.campus_info h4
+{
+	color:gray;
+}
+.campus_info .frame_info
+{
+	padding:20px 20px;
+	border:2px solid #eee;
+	background:#f4f4f4;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.campus_info .frame_info .row
+{
+	border-top:1px solid #ddd;
+	padding:15px 0;
+}
+.campus_info .col_info img
+{
+	margin-top:80px;
+}
+
+@media screen and (max-width: 768px) {
+
+.campus_info h1
+{
+	font-size:30px !important;
+	margin-top:0;
+}
+.campus_info h2
+{
+	font-size:25px !important;
+}
+}
+@media screen and  (min-width: 992px) {
+
+}
+
+@media screen and  (min-width: 1200px) {
+
+
+}
+

@@ -24,8 +24,7 @@
     {{ partial "0_0_footer.html" . }}
 
     {{ partial "0_0_js.html" . }}
-    
-    {{ partial "1_4_home_alert.html" . }}
+
   </body>
 
 </html>

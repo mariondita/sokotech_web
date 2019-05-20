@@ -1,0 +1,86 @@
+<!--
+<div class="container campus_info">
+
+	<h1>4TO Campus de verano SOKOTECH</h1>
+	<div class="row">
+   	<div class="col-md-6 col-sm-12 col_description">
+	   	<img src="/img/campus/alert_mc.jpg">
+			<h2>Programación en Minecraft</h2>
+			<h4>Impartido por: Jose Nuñez</h4>
+			<p class="lead">
+				Vamos a descubrir todos los secretos de Minecraft! Aprenderemos programación desde
+				la base, y crearemos mods y plugin usando Python y Scratch.
+			</p>			
+			 
+			<h2>Tecnologías Creativas</h2>
+			<h4>Impartido por: Genís Bercero</h4>
+			<p class="lead">
+				Aprenderemos a ser curiosos/as, entenderemos el funcionamiento de algunas máquinas
+				y seremos capaces de diseñar artefactos con nuestras propias
+				manos. Experimentaremos, jugaremos y aprenderemos colaborando en proyectos que
+				nos harán personas más creativas dominando las tecnologías de fabricación digital,
+				como la impresión 3d o el corte láser.
+			</p>   
+			<p class="lead">
+				Cada día se planteará un reto y nuestra misión será resolverlo.
+				¿Te atreves? Ven a jugar con nosotros.
+			</p>
+   	</div>
+   	<div class="col-md-6 col-sm-12 col_info">
+			<div class="frame_info">
+				<h2>Julio</h2>
+				<h4>Horario campus: 9:00 - 14:00</h4>
+				<div class="row">	
+					<div class="col-md-4">
+						Semana: 1 al 5	
+					</div>	
+					<div class="col-md-4">
+						Programación Minecraft
+					</div>	
+					<div class="col-md-4">
+						Edad: 09 a 12 años
+					</div>	
+				</div>	
+				<div class="row">	
+					<div class="col-md-4">
+						Semana: 8 al 12	
+					</div>	
+					<div class="col-md-4">
+						Tecnología creativa
+					</div>	
+					<div class="col-md-4">
+						Edad: 07 a 12 años
+					</div>	
+				</div>	   
+				<div class="row">	
+					<div class="col-md-4">
+						Semana: 15 al 19	
+					</div>	
+					<div class="col-md-4">
+						Programación Minecraft
+					</div>	
+					<div class="col-md-4">
+						Edad: 09 a 12 años
+					</div>	
+				</div>	
+				<div class="row">	
+					<div class="col-md-4">
+						Semana: 22 al 26	
+					</div>	
+					<div class="col-md-4">
+						Tecnología creativa
+					</div>	
+					<div class="col-md-4">
+						Edad: 07 a 12 años
+					</div>	   
+  	   		</div>
+  			</div>
+  			<div class="frame_info">
+				<h4>Plazas limitadas.
+				Regístrate <a target="_new" href="https://docs.google.com/forms/d/e/1FAIpQLScR_AZz_L5v96j9VYFmoHWMy_w45yhqxWQ60kuF5hR3RZtIzw/viewform?vc=0&c=0&w=1">aquí</a></h4>
+			</div>
+			<img src="/img/campus/tecnologia_creativa.jpg">
+  		</div>
+	</div>
+</div>
+-->

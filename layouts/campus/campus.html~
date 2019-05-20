@@ -9,23 +9,15 @@
 
   <body>
 
-    {{ partial "1_0_main_nav.html" . }}
+    {{ partial "7_0_campus_nav.html" . }}
 
-    {{ partial "1_1_home_header_description.html" . }}
+    {{ partial "7_1_campus_description.html" . }}
 
-    {{ partial "1_2_home_lastest_projects" . }}
-
-    {{ partial "1_3_home_companies.html" . }}
-
-    {{ partial "0_0_mail_subscribe.html" . }}
-
-    {{ partial "0_0_map.html" . }}
 
     {{ partial "0_0_footer.html" . }}
 
     {{ partial "0_0_js.html" . }}
     
-    {{ partial "1_4_home_alert.html" . }}
   </body>
 
 </html>
