@@ -104,8 +104,11 @@
 {
 	margin-top:80px;
 }
-
-@media screen (max-width: 768px) {
+.frame_info .lead
+{
+	margin-bottom:0 !important;
+}
+@media screen and (max-width: 768px) {
 
 .campus_info h1
 {

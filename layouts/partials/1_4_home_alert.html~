@@ -9,9 +9,9 @@
       </div>
       
       <div class="modal-body">
-        <h2>Campus de verano SOKOTECH</h2>
+        <h2>Campus de verano SokoTech</h2>
         <h4>De 7 a 12 años - Del 1 al 26 de julio</h4>
-        <p class="lead">4TA edición del campus de SOKOTECH con clases de <b>Tecnología creativa</b> y 
+        <p class="lead">4TA edición del campus de SokoTech con clases de <b>Tecnología creativa</b> y 
         			de <b>programación con Minecraft</b>.
         </p>
         <div class="row">
@@ -19,7 +19,7 @@
         			<img src="/img/campus/tecnologia_creativa.jpg">
         		</div>-->
         		<div class="col-md-12 col-sm-12">
-        		   <img src="/img/campus/programacion_mc.jpg">
+        		   <img src="/img/campus/alert_mc.jpg">
 				</div>        		
         </div>
         <a type="button" href="/campus/" class="btn btn-lg btn-block btn-info" role="button">Saber más</a>
