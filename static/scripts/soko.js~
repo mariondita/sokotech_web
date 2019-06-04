@@ -1,5 +1,5 @@
 $(document).ready(function()
 {
 	if($("#soko_description").length)
-	    alert("pasa");
+	    $('#alert_campus').modal("show");
 });
